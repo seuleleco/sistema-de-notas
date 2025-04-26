@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
    
-    <title>Portal de notas do aluno</title>
-    <link rel="icon" type="image/x-icon" href="image/buly.ico">
+    <title>Portal de Notas</title>
+    
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <header>
-        <img id="logo" src="image/buly.webp" alt="School">
-        <h1 id="titulo">Cadastro de notas de alunos</h1>
-    </header>
+    <div id="caixatema" class="backgroundchanger">
+        <button onclick="trocartema()" id="temabtn">Mudar Tema</button>
+        <img id="temastatus" src="images/sol.png">
+        
+       
+  <section class="container">
    
     <input class="inputaluno" type="text" id="aluno"  onkeydown="if(event.keyCode === 13) addaluno()">
     <input class="inputnota" type="number" id="nota"  onkeydown="if(event.keyCode === 13) addaluno()">
     <button class="botao" onclick="addaluno()">Adicionar aluno</button>
     <button class="limpar" onclick="limpaalunos()">Limpar alunos</button>
-
+</section>
 
     <p id="msg"></p>
     
@@ -29,7 +31,7 @@
     
     
 
-    
+ </div>   
 <script src="script.js"></script>
     
 </body>

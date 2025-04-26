@@ -1,3 +1,131 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.backgroundchanger{
+   background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(51, 92, 115));
+   height: 100%;
+   width: 100%;
+   
+   
+   transition: background 0.3s ease;
+}
+
+.container{
+    display: flex;
+   align-items: center; 
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   
+   font-size: 3vh;
+   color: white;
+   transition: 0.3s ease-in-out;
+   
+}
+
+#email{
+  
+    font-size: 2vh;
+    margin: 20px;
+    border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  
+    
+}
+#passwordadd{
+  
+    margin: 40px;
+    transition: 0.3s ease-in-out;
+    
+    
+}
+
+#password{
+  
+    font-size: 2vh;
+    border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  
+    
+    
+}
+
+#loginbtn{
+    margin: 35px;
+    height: 6vh;
+    width: 100px;
+    border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#temabtn{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #5065dd;
+    outline: none;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+h1{
+    transition: 0.3s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: bold;
+    
+}
+
+#temastatus{
+  width: 50px;
+  right: auto;
+  left: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 100%;
+  transition: opacity 0.2s ease-in-out;
+  
+}
+#temastatus.fade-out {
+  opacity: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+  CODIGO ANTIGO
+
 #logo{
     display: flex;
     position: relative;
@@ -46,11 +174,11 @@ body{
 
 
 .inputaluno{
-   /* top: 100px;*/
+   /* top: 100px;
     border-radius: 10px;
     border: 2px solid rgb(3, 147, 199);
     position: relative;
-   /* transform: scale(1.5);*/
+   /* transform: scale(1.5);
     margin: 50px;
     padding: 20px;
     font-size: 17px;
@@ -65,7 +193,7 @@ body{
     padding: 20px;
     font-size: 17px;
     
-    /*transform: scale(1.5);*/
+    /*transform: scale(1.5);
 } 
 
 .botao{
@@ -74,7 +202,7 @@ body{
     border: 2px solid rgb(3, 147, 199);
     position: relative;
     padding: 20px;
-   /* transform: scale(1.5);*/
+   /* transform: scale(1.5);
     margin: 30px;
     font-size: 17px;
 
@@ -88,7 +216,7 @@ body{
     border: 2px solid rgb(3, 147, 199);
     position: relative;
     padding: 20px;
-   /* transform: scale(1.5);*/
+   /* transform: scale(1.5);
     margin: 30px;
     font-size: 17px;
 
@@ -112,3 +240,4 @@ ol{
     max-height: 100px;
     
 }
+    */
