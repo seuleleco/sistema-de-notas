@@ -29,4 +29,4 @@ Rode o Arquivo .HTML ou utilizando live server.
 
 
 <h2>🎯 Status do Projeto </h2>
-🚧 Em desenvolvimento... melhorias constantes sendo aplicadas! 🚀
+🚧 Este projeto foi implementado em https://github.com/seuleleco/sistema_escolar 🚀
